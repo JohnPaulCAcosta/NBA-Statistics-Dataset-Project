@@ -1,18 +1,4 @@
-# NBA Statistics Dataset Project: Who Had the Harder Road to Success, LeBron or Jordan?
-
-#####   Functions   #####
-
-def two_deci_round(x):
-
-    # Rounds numbers to two decimal places if possible
-    # Used to make dataframe data more readable for visuals
-
-    if isinstance(x, float):
-        return round(x, 2)
-    else:
-        return x
-    
-##### End of Functions #####
+# NBA Statistics Dataset Project: Who faced more competition, LeBron or Jordan?
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -28,6 +14,20 @@ import numpy as np
 # were not expected to grow nor compete for a title). I will analyze the years
 # starting in which either player began competiting in the playoffs for their 
 # respective careers
+
+#####   Functions   #####
+
+def two_deci_round(x):
+
+    # Rounds numbers to two decimal places if possible
+    # Used to make dataframe data more readable for visuals
+
+    if isinstance(x, float):
+        return round(x, 2)
+    else:
+        return x
+    
+##### End of Functions #####
 
 # Put CSV file of basic stats per game into Panda Data Frame
 
