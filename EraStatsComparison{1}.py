@@ -301,7 +301,8 @@ plt.show()
 # it has 30! 
 #   How to Address: To adjust for this, we can turn the Players Per Year (PPY) stat in
 #   the table into a Players Per Team (PPT) stat. After all, the PPY stat was added to
-#   address the fact that LeBron has/will play for much longer than Jordan!
+#   address the fact that LeBron has/will play for much longer than Jordan! To do this
+#   we would need to divide the PPY stat by the corresponding number of teams for the year
 
 # Flaw 2: With so many skilled in talented players from all over the globe who
 # have been trained since they were in primary school, couldn't there be outliers
