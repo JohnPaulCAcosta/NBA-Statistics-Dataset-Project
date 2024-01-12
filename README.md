@@ -6,4 +6,6 @@ Howdy! This will be an ongoing project that I will use to showcase data-related 
 
 1. Who faced more competition: LeBron or Jordan?
 
-Dataset Creator/Link: https://www.kaggle.com/datasets/sumitrodatta/nba-aba-baa-stats
+# Resources
+
+Dataset Creator/Link (1): https://www.kaggle.com/datasets/sumitrodatta/nba-aba-baa-stats
