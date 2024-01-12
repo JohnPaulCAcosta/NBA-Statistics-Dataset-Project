@@ -2,7 +2,6 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 
 # The basketball GOAT debate takes many perspectives. You may hear people say Kobe
 # Bryant, Wilt Chamberlain, Bill Russell, or Kareem Abdul-Jabbar is their GOAT. Some
@@ -12,7 +11,7 @@ import numpy as np
 # will try to show who played in the more difficult era: LeBron's Era or
 # Jordan's Era (will not consider Wizard's playing time since those teams
 # were not expected to grow nor compete for a title). I will analyze the years
-# starting in which either player began competiting in the playoffs for their 
+# starting in which either player began competing in the playoffs for their 
 # respective careers
 
 #####   Functions   #####
@@ -20,7 +19,7 @@ import numpy as np
 def two_deci_round(x):
 
     # Rounds numbers to two decimal places if possible
-    # Used to make dataframe data more readable for visuals
+    # Used to make data frame data more readable for visuals
 
     if isinstance(x, float):
         return round(x, 2)
@@ -74,7 +73,7 @@ three_percentage_standard = .350
 # field_percentage_standard = .650
 # three_percentage_standard = .400
 
-# We will search through player per game data frame for qualified players,
+# We will search through player-per-game data frame for qualified players,
 # beginning by specifying the era, then qualifying statistics
 
 lebron_competition_p = dfP [
@@ -304,10 +303,10 @@ plt.show()
 #   address the fact that LeBron has/will play for much longer than Jordan! To do this
 #   we would need to divide the PPY stat by the corresponding number of teams for the year
 
-# Flaw 2: With so many skilled in talented players from all over the globe who
+# Flaw 2: With so many skilled talented players from all over the globe who
 # have been trained since they were in primary school, couldn't there be outliers
 # or statistical phenoms in today's era (in which LeBron played/plays in)? Players 
-# such as Luka Doncic, who has averaged nearly a triple double for many seasons, or
+# such as Luka Doncic, who has averaged nearly a triple-double for many seasons, or
 # James Harden, who has had historical scoring seasons. Couldn't they skew the mean?
 #   How to Address: Why absolutely! There can be outliers in any large dataset, and
 #   for this predicament we can look at the median statistics rather than the mean
