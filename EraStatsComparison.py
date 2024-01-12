@@ -38,10 +38,6 @@ dfP = pd.read_csv('Player Per Game.csv') # may be referred as main data frame in
 
 dfA = pd.read_csv('Advanced.csv')
 
-# Put CSV file of team data (i.e. made it to playoffs)
-
-dfT = pd.read_csv('Team Abbrev.csv')
-
 #####   Player Stats Perspective: Which era had more competition?   #####
 # - let's say a good player is someone who does well in their role, such as:
 #    ~ Playoff Player  (To compare all plausible competition)
