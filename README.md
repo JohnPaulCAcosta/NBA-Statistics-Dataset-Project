@@ -8,4 +8,5 @@ Howdy! This will be an ongoing project that I will use to showcase data-related 
 
 # Resources
 
-Dataset Creator/Link {1}: https://www.kaggle.com/datasets/sumitrodatta/nba-aba-baa-stats
+Dataset Links: 
+{1}: https://www.kaggle.com/datasets/sumitrodatta/nba-aba-baa-stats
